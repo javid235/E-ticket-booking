@@ -42,7 +42,7 @@ export const EventCard = (props) => {
       <div className='event-price-book'>
         <p className='event-price'>${props.price} / person</p>
         <div className='detailss-book'>
-          <Link to={`/details/${props.id}`}>
+          <Link to={`/bookit/details/${props.id}`}>
             <button className='see-details'>See details</button>
           </Link>
           <button className='book-now'>Book Now</button>

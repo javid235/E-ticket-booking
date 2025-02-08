@@ -10,13 +10,19 @@ import ScrollToTop from './Components/ScrollToTop'
 function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop routesToScroll={['/details', '/contact', '/events']} />
+      <ScrollToTop
+        routesToScroll={[
+          '/bookit/details',
+          '/bookit/contact',
+          '/bookit/events',
+        ]}
+      />
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/events' element={<Events />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/details/:id' element={<EventDetail />} />
+        <Route path='/bookit/' element={<Home />} />
+        <Route path='/bookit/events' element={<Events />} />
+        <Route path='/bookit/contact' element={<Contact />} />
+        <Route path='/bookit/details/:id' element={<EventDetail />} />
       </Routes>
     </BrowserRouter>
   )
