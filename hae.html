@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Tickets Booking</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background-color: #007BFF;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1em;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links .btn {
+  background-color: white;
+  color: #007BFF;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4em 2em;
+  background: linear-gradient(to right, rgba(0, 123, 255, 0.8), rgba(0, 191, 255, 0.8)), 
+              url('https://www.candorblog.com/wp-content/uploads/2017/05/travel-022-768x432.jpg') center/cover no-repeat;
+  color: white;
+  min-height: 70vh;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 0.8em 1.5em;
+  background-color: #ffcc00;
+  color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #ffdd33;
+  transform: scale(1.1);
+}
+
+
+/* Services Section */
+.services {
+  padding: 2em;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.card {
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+/* Popular Events Section */
+.popular-events {
+  padding: 2em;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5em;
+  margin-top: 1em;
+  align-items: stretch;
+}
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Ensures proper cropping of images */
+}
+
+.event-info {
+  padding: 1em;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event-info h3 {
+  margin-bottom: 0.5em;
+  color: #007BFF;
+}
+
+.event-info p {
+  margin: 0.3em 0;
+  color: #555;
+}
+
+.event-info .btn {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.event-info .btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 2em;
+  text-align: center;
+  background-color: #007BFF;
+  color: white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  color: white;
+}
+
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">E-Tickets</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#" class="btn">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Book Your Tickets Effortlessly</h1>
+    <p>Discover and book tickets for events, concerts, movies, and more.</p>
+    <a href="#" class="btn">Get Started</a>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Concerts</h3>
+        <p>Book tickets for your favorite concerts and live shows.</p>
+      </div>
+      <div class="card">
+        <h3>Movies</h3>
+        <p>Find and book tickets for the latest blockbuster movies.</p>
+      </div>
+      <div class="card">
+        <h3>Sports</h3>
+        <p>Secure your spot at the most exciting sports events.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Events Section -->
+  <section class="popular-events">
+  <h2>Popular Events</h2>
+  <div class="events-grid">
+    <div class="event-card">
+      <img src="https://www.billboard.com/wp-content/uploads/2024/10/chris-martin-coldplay-siriusxm-2024-billboard-1548.jpg?w=1024" alt="Concert Event">
+      <div class="event-info">
+        <h3>Live Concert</h3>
+        <p>Date: 12th Dec 2024</p>
+        <p>Location: New York</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+    <div class="event-card">
+      <img src="https://a.espncdn.com/photo/2024/0530/nba_finals-preview_16x9.jpg" alt="Movie Premiere">
+      <div class="event-info">
+        <h3>Movie Premiere</h3>
+        <p>Date: 18th Dec 2024</p>
+        <p>Location: Los Angeles</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+    <div class="event-card">
+      <img src="https://editorial.uefa.com/resources/0275-15125e215637-30258eac814d-1000/16x9_uclf_poster_3.jpeg" alt="Sports Event">
+      <div class="event-info">
+        <h3>Football Match</h3>
+        <p>Date: 25th Dec 2024</p>
+        <p>Location: London</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+    <div class="event-card">
+      <img src="https://static.toiimg.com/thumb/msid-105906666,width-1280,height-720,resizemode-4/105906666.jpg" alt="Theater Show">
+      <div class="event-info">
+        <h3>Theater Night</h3>
+        <p>Date: 30th Dec 2024</p>
+        <p>Location: Sydney</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+</section>
+
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>What Our Users Say</h2>
+    <p>"Amazing platform! Easy to use and very reliable!"</p>
+    <p>"I got tickets to my dream concert with no hassle."</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 E-Tickets. All rights reserved.</p>
+  </footer>
+</body>
+</html>

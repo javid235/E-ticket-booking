@@ -1,0 +1,23 @@
+{
+  "usesTypeScript": false,
+  "usesStyledComponents": false,
+  "extension": "jsx",
+  "usesCssModule": false,
+  "cssPreprocessor": "css",
+  "testLibrary": "none",
+  "component": {
+    "type": "default",
+    "path": "src/Components",
+    "withStyle": true,
+    "withTest": false,
+    "withStory": false,
+    "withLazy": false,
+    "default": {
+      "path": "src/Components",
+      "withStyle": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    }
+  }
+}
