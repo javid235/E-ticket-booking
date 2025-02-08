@@ -4,6 +4,7 @@ import comedyIcon from '../../images/comedy.png'
 import foodIcon from '../../images/hotel.png'
 import sportIcon from '../../images/sport.png'
 import movieIcon from '../../images/movies.png'
+import './PopularCat.css'
 
 export const PopularCat = () => {
   return (

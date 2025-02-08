@@ -1,6 +1,6 @@
 import React from 'react'
 import searchIcon from '../../images/search.svg'
-
+import './HeroSearch.css'
 const HeroSearch = () => {
   return (
     <div className='hero-cont'>

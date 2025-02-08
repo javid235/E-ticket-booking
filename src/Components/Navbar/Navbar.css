@@ -59,3 +59,8 @@
 .nav-signup:active {
   background-color: #e5f4ff;
 }
+@media (max-width: 540px){
+  .nav-link{
+    display: none;
+  }
+}

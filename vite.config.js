@@ -4,5 +4,10 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'bookit/'
+  server: {
+    host: '0.0.0.0', // Allows access from all network interfaces
+    port: 3000, // Port number for the dev server
+    open: true, // Automatically opens the app in the default browser
+  },
+  base:'bookit/',
 })
