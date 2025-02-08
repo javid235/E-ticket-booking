@@ -7,7 +7,7 @@ const TopEvents = () => {
   return (
     <div className='topEvent-cont'>
       <div className='topEvent'>
-        <h1>Events</h1>
+        <h1>Events top</h1>
         <div className='topEvent-grid'>
           {events.map((item, i) => {
             return <EventCard
