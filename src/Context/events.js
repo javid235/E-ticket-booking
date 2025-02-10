@@ -99,7 +99,7 @@ let events = [
     description: 'Witness tennis history in the making.',
   },
   {
-    id: 8,
+    id: 10,
     name: 'UEFA Champions League Final',
     category: 'Sports',
     date: '2024-05-18',

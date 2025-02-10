@@ -1,3 +1,154 @@
-.EventDetail {
-  /* Add styles here */
+/* General Styles */
+
+.eve-detail-cont {
+  display: flex;
+  justify-content: center;
+  background-color: #ececec;
+}
+.eve-detail {
+  width: 100%;
+  max-width: 1300px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Title */
+.eve-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Image Slider */
+.eve-image-slider {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.eve-image-slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0eve-5s ease-in-out;
+}
+
+.eve-slider-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.eve-slider-controls button {
+  background: rgba(0, 0, 0, 0eve-5);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+/* Content Section */
+.eve-content {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+/* About Section */
+.eve-about {
+  flex: 2;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0eve-1);
+}
+
+.eve-about h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+}
+
+.eve-about p {
+  color: #555;
+  line-height: 1eve-5;
+}
+
+.eve-about h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #333;
+}
+
+.eve-about ul {
+  padding-left: 20px;
+}
+
+.eve-about ul li {
+  color: #444;
+  margin-bottom: 5px;
+}
+
+/* Booking Section */
+.eve-booking {
+  flex: 1;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0eve-1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.eve-date-location {
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.eve-seats {
+  font-size: 14px;
+  color: #444;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.eve-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+}
+
+.eve-price span {
+  font-size: 14px;
+  color: #666;
+}
+
+.eve-book-now {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0eve-3s;
+}
+
+.eve-book-now:hover {
+  background-color: #0056b3;
 }
