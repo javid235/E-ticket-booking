@@ -4,8 +4,12 @@
   display: flex;
   justify-content: center;
   background-color: #ececec;
+  padding-top:25px ;
 }
 .eve-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
   width: 100%;
   max-width: 1300px;
   padding: 20px;
@@ -14,7 +18,7 @@
 
 /* Title */
 .eve-title {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   color: #222;
   margin-bottom: 15px;
@@ -25,7 +29,7 @@
 .eve-image-slider {
   position: relative;
   width: 100%;
-  height: fit-content;
+  height: 80vh;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -60,11 +64,12 @@
   display: flex;
   margin-top: 20px;
   gap: 20px;
+  width: 100%;
 }
 
 /* About Section */
 .eve-about {
-  flex: 2;
+  flex: 3.5;
   background-color: white;
   padding: 15px;
   border-radius: 8px;
@@ -107,6 +112,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  height: fit-content;
 }
 
 .eve-date-location {

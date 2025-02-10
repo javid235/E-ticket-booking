@@ -8,17 +8,6 @@ const EventDetail = () => {
   const { id } = useParams()
   const event = events.find((e) => e.id === Number(id))
   return (
-    // <div className='eve-eve-detail-cont'>
-    //   <div className='eve-eve-detail'>
-    //     <div className='eve-eve-img-cont'>
-    //       <img className='eve-eve-img' src={SelectEvent.image} alt='' />
-    //     </div>
-    //     <div className='eve-eve-detail-info-cont'>
-    //       <div className='eve-eve-detail-info'></div>
-    //       <div className='eve-eve-detail-booking'></div>
-    //     </div>
-    //   </div>
-    // </div>
     <div className='eve-detail-cont'>
       <div className='eve-detail'>
         <h1 className='eve-title'>{event.name}</h1>
@@ -36,7 +25,7 @@ const EventDetail = () => {
           {/* About Section */}
           <div className='eve-about'>
             <h2>About {event.name}</h2>
-            <p>{event.description}</p>
+            <p>{event.description} Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati aliquid perferendis modi accusamus provident. Nemo, rem autem a vitae quae culpa architecto officiis ratione possimus? Illo corporis ullam culpa saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, temporibus. Ullam ea iure assumenda quisquam quaerat modi molestiae itaque exercitationem possimus, consectetur nulla amet nam asperiores voluptatum, harum enim soluta!</p>
             <h3>Highlights:</h3>
             <ul>
               <li>🎬 Movie & TV Show Premieres</li>
