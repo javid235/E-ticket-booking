@@ -131,5 +131,431 @@ let events = [
       'https://scontent.fcjb3-3.fna.fbcdn.net/v/t39.30808-6/373740889_840267264136799_7409372349003204686_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tkscawTqZEYQ7kNvgFjnG96&_nc_zt=23&_nc_ht=scontent.fcjb3-3.fna&_nc_gid=AI_KsRIW61_CqjnrYLm-fZO&oh=00_AYCRNXzhTXodHejbAZtVlS2zh5gb97iR3a9NDQx9d4vIEQ&oe=67A975DE',
     description: 'The ultimate NFL showdown.',
   },
+  {
+    id: 13,
+    name: 'Ed Sheeran Live',
+    category: 'Concerts',
+    date: '2024-09-10',
+    venue: 'O2 Arena, London',
+    price: 130,
+    image:
+      'https://www.nme.com/wp-content/uploads/2024/09/ed-sheeran-live-tour.jpg',
+    description: "Experience Ed Sheeran's heartfelt music live.",
+  },
+  {
+    id: 14,
+    name: 'BTS Reunion Concert',
+    category: 'Concerts',
+    date: '2024-12-20',
+    venue: 'Seoul Olympic Stadium, South Korea',
+    price: 180,
+    image:
+      'https://www.billboard.com/wp-content/uploads/2024/08/bts-reunion-tour.jpg',
+    description: 'The long-awaited BTS reunion concert.',
+  },
+  {
+    id: 15,
+    name: 'The Weeknd World Tour',
+    category: 'Concerts',
+    date: '2024-11-25',
+    venue: 'Madison Square Garden, NYC',
+    price: 140,
+    image:
+      'https://www.rollingstone.com/wp-content/uploads/2024/09/the-weeknd-tour.jpg',
+    description: 'A thrilling performance by The Weeknd.',
+  },
+  {
+    id: 16,
+    name: 'Post Malone Live',
+    category: 'Concerts',
+    date: '2024-06-30',
+    venue: 'Staples Center, Los Angeles',
+    price: 110,
+    image:
+      'https://www.billboard.com/wp-content/uploads/2024/07/post-malone-live.jpg',
+    description: "Post Malone's electrifying live concert experience.",
+  },
+  {
+    id: 17,
+    name: 'Imagine Dragons Tour',
+    category: 'Concerts',
+    date: '2024-08-15',
+    venue: 'Wembley Stadium, London',
+    price: 135,
+    image:
+      'https://www.nme.com/wp-content/uploads/2024/08/imagine-dragons-live.jpg',
+    description: "Feel the power of Imagine Dragons' rock anthems.",
+  },
+  {
+    id: 18,
+    name: 'Hamilton Broadway Show',
+    category: 'Theater Shows',
+    date: '2024-07-10',
+    venue: 'Richard Rodgers Theatre, NYC',
+    price: 95,
+    image:
+      'https://www.broadway.com/wp-content/uploads/2024/06/hamilton-show.jpg',
+    description: 'A mesmerizing Broadway experience of Hamilton.',
+  },
+  {
+    id: 19,
+    name: 'The Phantom of the Opera',
+    category: 'Theater Shows',
+    date: '2024-09-05',
+    venue: 'Majestic Theatre, NYC',
+    price: 110,
+    image:
+      'https://www.theatermania.com/wp-content/uploads/2024/09/phantom-opera-show.jpg',
+    description: 'The legendary Phantom of the Opera returns.',
+  },
+  {
+    id: 20,
+    name: 'The Lion King Musical',
+    category: 'Theater Shows',
+    date: '2024-08-20',
+    venue: 'Lyceum Theatre, London',
+    price: 105,
+    image:
+      'https://www.broadway.com/wp-content/uploads/2024/08/lion-king-musical.jpg',
+    description: 'An enchanting musical journey through The Lion King.',
+  },
+  {
+    id: 21,
+    name: 'Les Misérables',
+    category: 'Theater Shows',
+    date: '2024-10-15',
+    venue: 'Sondheim Theatre, London',
+    price: 120,
+    image:
+      'https://www.theatermania.com/wp-content/uploads/2024/10/les-miserables-show.jpg',
+    description: 'An emotional and stunning performance of Les Misérables.',
+  },
+  {
+    id: 22,
+    name: 'Wicked',
+    category: 'Theater Shows',
+    date: '2024-11-01',
+    venue: 'Gershwin Theatre, NYC',
+    price: 125,
+    image:
+      'https://www.broadway.com/wp-content/uploads/2024/11/wicked-musical.jpg',
+    description: 'The untold story of the witches of Oz.',
+  },
+  {
+    id: 23,
+    name: 'Kevin Hart Live',
+    category: 'Stand-up Comedy',
+    date: '2024-07-15',
+    venue: 'Barclays Center, Brooklyn',
+    price: 85,
+    image:
+      'https://www.comedycentral.com/wp-content/uploads/2024/07/kevin-hart-show.jpg',
+    description: 'Laugh out loud with Kevin Hart’s latest tour.',
+  },
+  {
+    id: 24,
+    name: 'Dave Chappelle Unfiltered',
+    category: 'Stand-up Comedy',
+    date: '2024-09-12',
+    venue: 'Hollywood Bowl, Los Angeles',
+    price: 95,
+    image:
+      'https://www.comedycentral.com/wp-content/uploads/2024/09/dave-chappelle-show.jpg',
+    description: 'Unfiltered comedy from the legendary Dave Chappelle.',
+  },
+  {
+    id: 25,
+    name: 'Ali Wong Stand-up Special',
+    category: 'Stand-up Comedy',
+    date: '2024-10-02',
+    venue: 'The Wiltern, Los Angeles',
+    price: 75,
+    image:
+      'https://www.comedycentral.com/wp-content/uploads/2024/10/ali-wong-show.jpg',
+    description: 'Ali Wong’s latest hilarious stand-up special.',
+  },
+  {
+    id: 26,
+    name: 'Trevor Noah: Loud & Clear',
+    category: 'Stand-up Comedy',
+    date: '2024-08-18',
+    venue: 'Madison Square Garden, NYC',
+    price: 100,
+    image:
+      'https://www.comedycentral.com/wp-content/uploads/2024/08/trevor-noah-show.jpg',
+    description: 'Trevor Noah’s sharp and witty comedy tour.',
+  },
+  {
+    id: 27,
+    name: 'John Mulaney: From Scratch',
+    category: 'Stand-up Comedy',
+    date: '2024-11-08',
+    venue: 'Chicago Theatre, Chicago',
+    price: 90,
+    image:
+      'https://www.comedycentral.com/wp-content/uploads/2024/11/john-mulaney-show.jpg',
+    description: 'John Mulaney’s latest stand-up comedy special.',
+  },
+  {
+    id: 28,
+    name: 'Creative Writing Workshop',
+    category: 'Workshops',
+    date: '2024-07-22',
+    venue: 'New York Public Library, NYC',
+    price: 50,
+    image:
+      'https://www.writingworkshops.com/wp-content/uploads/2024/07/creative-writing-workshop.jpg',
+    description: 'Improve your storytelling skills with expert guidance.',
+  },
+  {
+    id: 29,
+    name: 'Digital Marketing Masterclass',
+    category: 'Workshops',
+    date: '2024-09-10',
+    venue: 'Los Angeles Convention Center',
+    price: 120,
+    image:
+      'https://www.marketingworkshops.com/wp-content/uploads/2024/09/digital-marketing-workshop.jpg',
+    description:
+      'Learn SEO, social media, and growth strategies from industry leaders.',
+  },
+  {
+    id: 30,
+    name: 'Photography Bootcamp',
+    category: 'Workshops',
+    date: '2024-08-15',
+    venue: 'San Francisco Art Institute',
+    price: 80,
+    image:
+      'https://www.photoworkshops.com/wp-content/uploads/2024/08/photography-bootcamp.jpg',
+    description: 'Master the art of photography with hands-on training.',
+  },
+  {
+    id: 31,
+    name: 'Coding for Beginners',
+    category: 'Workshops',
+    date: '2024-10-05',
+    venue: 'TechHub, Austin',
+    price: 100,
+    image:
+      'https://www.codeworkshops.com/wp-content/uploads/2024/10/coding-beginners-workshop.jpg',
+    description:
+      'Learn the fundamentals of web development in this beginner-friendly workshop.',
+  },
+  {
+    id: 32,
+    name: 'Mindfulness & Meditation Retreat',
+    category: 'Workshops',
+    date: '2024-11-20',
+    venue: 'Yoga Retreat Center, Bali',
+    price: 150,
+    image:
+      'https://www.meditationworkshops.com/wp-content/uploads/2024/11/mindfulness-meditation-retreat.jpg',
+    description: 'A peaceful retreat to enhance mindfulness and inner peace.',
+  },
+  {
+    id: 33,
+    name: 'Modern Art Exhibition',
+    category: 'Exhibitions',
+    date: '2024-07-30',
+    venue: 'The Met, NYC',
+    price: 30,
+    image:
+      'https://www.artexhibitions.com/wp-content/uploads/2024/07/modern-art-exhibition.jpg',
+    description: 'Explore contemporary artworks by renowned artists.',
+  },
+  {
+    id: 34,
+    name: 'Futuristic Tech Expo',
+    category: 'Exhibitions',
+    date: '2024-09-15',
+    venue: 'Silicon Valley Convention Center',
+    price: 75,
+    image:
+      'https://www.techexhibitions.com/wp-content/uploads/2024/09/futuristic-tech-expo.jpg',
+    description: 'Discover groundbreaking technologies shaping the future.',
+  },
+  {
+    id: 35,
+    name: 'Antique Collectors Fair',
+    category: 'Exhibitions',
+    date: '2024-08-28',
+    venue: 'London Olympia',
+    price: 40,
+    image:
+      'https://www.antiqueshows.com/wp-content/uploads/2024/08/antique-collectors-fair.jpg',
+    description: 'A showcase of rare antiques and collectibles.',
+  },
+  {
+    id: 36,
+    name: 'International Auto Show',
+    category: 'Exhibitions',
+    date: '2024-10-10',
+    venue: 'Detroit Auto Center',
+    price: 60,
+    image:
+      'https://www.autoshows.com/wp-content/uploads/2024/10/international-auto-show.jpg',
+    description: 'Witness the latest innovations in the automotive industry.',
+  },
+  {
+    id: 37,
+    name: 'World of Anime Expo',
+    category: 'Exhibitions',
+    date: '2024-12-05',
+    venue: 'Tokyo Big Sight, Japan',
+    price: 50,
+    image:
+      'https://www.animeexpo.com/wp-content/uploads/2024/12/world-of-anime-expo.jpg',
+    description:
+      'A paradise for anime lovers featuring cosplay, art, and merch.',
+  },
+  {
+    id: 38,
+    name: 'Global Business Conference',
+    category: 'Conferences',
+    date: '2024-07-18',
+    venue: 'Dubai World Trade Center',
+    price: 200,
+    image:
+      'https://www.businessconferences.com/wp-content/uploads/2024/07/global-business-conference.jpg',
+    description:
+      'An insightful conference on global business trends and innovations.',
+  },
+  {
+    id: 39,
+    name: 'AI & Machine Learning Summit',
+    category: 'Conferences',
+    date: '2024-09-22',
+    venue: 'San Francisco Tech Hub',
+    price: 250,
+    image:
+      'https://www.aiconferences.com/wp-content/uploads/2024/09/ai-machine-learning-summit.jpg',
+    description: 'Explore the latest breakthroughs in AI and ML.',
+  },
+  {
+    id: 40,
+    name: 'Women in Leadership Forum',
+    category: 'Conferences',
+    date: '2024-08-10',
+    venue: 'Paris Conference Center',
+    price: 180,
+    image:
+      'https://www.womenleadership.com/wp-content/uploads/2024/08/women-in-leadership-forum.jpg',
+    description: 'Empowering women leaders with impactful discussions.',
+  },
+  {
+    id: 41,
+    name: 'Sustainable Energy Summit',
+    category: 'Conferences',
+    date: '2024-10-08',
+    venue: 'Berlin Renewable Energy Hub',
+    price: 220,
+    image:
+      'https://www.energyconferences.com/wp-content/uploads/2024/10/sustainable-energy-summit.jpg',
+    description: 'Discussing the future of sustainable energy solutions.',
+  },
+  {
+    id: 42,
+    name: 'Startup Founders Meetup',
+    category: 'Conferences',
+    date: '2024-11-12',
+    venue: 'Silicon Valley Startups Incubator',
+    price: 150,
+    image:
+      'https://www.startupconferences.com/wp-content/uploads/2024/11/startup-founders-meetup.jpg',
+    description:
+      'Connecting entrepreneurs and investors in the startup ecosystem.',
+  },
+  {
+    id: 43,
+    name: 'Neon Lights Music Festival',
+    category: 'Parties/Nightlife',
+    date: '2024-07-05',
+    venue: 'Miami Beach Club',
+    price: 90,
+    image:
+      'https://www.musicfestivals.com/wp-content/uploads/2024/07/neon-lights-festival.jpg',
+    description: 'An electrifying night of music, dance, and neon vibes.',
+  },
+  {
+    id: 44,
+    name: 'Full Moon Party',
+    category: 'Parties/Nightlife',
+    date: '2024-08-18',
+    venue: 'Koh Phangan, Thailand',
+    price: 70,
+    image:
+      'https://www.partyevents.com/wp-content/uploads/2024/08/full-moon-party.jpg',
+    description: 'A legendary beach party under the full moon.',
+  },
+  {
+    id: 45,
+    name: 'Halloween Haunted Club Night',
+    category: 'Parties/Nightlife',
+    date: '2024-10-31',
+    venue: 'New Orleans',
+    price: 85,
+    image:
+      'https://www.halloweenevents.com/wp-content/uploads/2024/10/halloween-club-night.jpg',
+    description: 'A thrilling Halloween-themed nightclub event.',
+  },
+  {
+    id: 46,
+    name: 'Disney on Ice',
+    category: 'Kids & Family Events',
+    date: '2024-07-12',
+    venue: 'Madison Square Garden, NYC',
+    price: 60,
+    image:
+      'https://www.kidsevents.com/wp-content/uploads/2024/07/disney-on-ice.jpg',
+    description: 'A magical ice-skating show featuring Disney characters.',
+  },
+  {
+    id: 47,
+    name: 'Jurassic Adventure Park',
+    category: 'Kids & Family Events',
+    date: '2024-08-05',
+    venue: 'Universal Studios, Los Angeles',
+    price: 55,
+    image:
+      'https://www.kidsevents.com/wp-content/uploads/2024/08/jurassic-adventure-park.jpg',
+    description: 'A thrilling dinosaur-themed adventure for the whole family.',
+  },
+  {
+    id: 48,
+    name: 'LEGO World Tour',
+    category: 'Kids & Family Events',
+    date: '2024-09-14',
+    venue: 'Chicago Convention Center',
+    price: 50,
+    image:
+      'https://www.kidsevents.com/wp-content/uploads/2024/09/lego-world-tour.jpg',
+    description:
+      'Explore massive LEGO creations and build your own masterpieces.',
+  },
+  {
+    id: 49,
+    name: 'Paw Patrol Live!',
+    category: 'Kids & Family Events',
+    date: '2024-10-20',
+    venue: 'Houston Arena Theatre',
+    price: 45,
+    image:
+      'https://www.kidsevents.com/wp-content/uploads/2024/10/paw-patrol-live.jpg',
+    description:
+      'Join Chase, Marshall, and the gang in an action-packed live show.',
+  },
+  {
+    id: 50,
+    name: 'Magic & Illusions Show',
+    category: 'Kids & Family Events',
+    date: '2024-11-08',
+    venue: 'Orlando Magic Theatre',
+    price: 40,
+    image:
+      'https://www.kidsevents.com/wp-content/uploads/2024/11/magic-illusions-show.jpg',
+    description:
+      'A mesmerizing show filled with magic tricks and illusions for all ages.',
+  },
 ]
 export default events
